@@ -1,5 +1,5 @@
 site_name: My Scripts
-copyright: Copyright &copy; 2024 My Homelab
+copyright: Copyright &copy; 2024 My Scripts
 site_url: https://sh.jonco.dev
 plugins:
   - glightbox
