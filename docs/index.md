@@ -1,4 +1,6 @@
-# Scripts
+---
+title: Getting Started
+---
 
 ## List of Scripts
 
@@ -13,3 +15,4 @@
   ```shell
     wget https://sh.jonco.dev/lxc-tailscale.sh&& bash lxc-tailscale.sh
   ```
+  
