@@ -1,0 +1,49 @@
+site_name: My Scripts
+copyright: Copyright &copy; 2024 My Homelab
+site_url: https://sh.jonco.dev
+plugins:
+  - glightbox
+  - search
+  - awesome-pages
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+repo_url: https://github.com/jonathanmcohen/helper
+repo_name: jonathanmcohen/helper
+extra_css:
+  - css/aptos.css
+  - css/aptosmono.css
+  - css/tables.css
+theme:
+  name: material
+  features:
+    - content.code.copy
+  font:
+    text: Aptos
+    code: Aptos Mono
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blie
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
