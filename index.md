@@ -5,5 +5,5 @@
 - [Docker Tailscale](docker-tailscale.sh)
 
 ```shell
-wget https://sh.jonco.dev/docker-tailscale.sh | sh docker-tailscale.sh
+wget https://sh.jonco.dev/docker-tailscale.sh && bash docker-tailscale.sh
 ```
